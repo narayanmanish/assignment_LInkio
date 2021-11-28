@@ -10,7 +10,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 $headers = array(
     "Accept: application/json",
     "Content-Type:application/json",
-    "Authorization: Bearer db4d2d587f6c9fbbe1c768ab7761ab3ba72bdc2ad9197e924422046d9d49",
+    "Authorization: ",
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 //for debug only!
